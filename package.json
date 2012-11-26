@@ -1,0 +1,16 @@
+{
+     "name": "daeq.ru",
+     "author": "Danial Bratchenko",
+     "version": "0.0.1",
+     "engines": {
+        "node": "0.8.x",
+        "npm": "1.1.x"
+     },
+     "dependencies": {
+        "docpad": "6.11.1",
+        "docpad-plugin-eco": "2.0.1",
+        "docpad-plugin-cleanurls": "2.2.5",
+        "docpad-plugin-marked": "2.1.0"
+     },
+     "main": "app.js"
+}

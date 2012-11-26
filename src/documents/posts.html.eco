@@ -1,0 +1,13 @@
+--- yaml
+layout: 'index'
+---
+
+<div class="well">
+    <ul class="unstyled">
+    <% for document in @getCollection('posts').models: %>            
+        <%date = document.get("date")%>
+        <li><span class="label"><%="#{date.getDate()}.#{date.getMonth()+1}.#{date.getFullYear()}"%></span>
+        <a href="<%= document.get("url") %>"><%= document.get("title") %></a></li>
+    <% end %>
+    </ul>
+</div>
